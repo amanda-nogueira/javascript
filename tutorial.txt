@@ -1,0 +1,97 @@
+Boas práticas na programação:
+
+1) Doumentação
+/**
+* Descrição do código (o que faz?)
+* @author Nome do autor do código
+* link https://...
+*/
+
+2) Código limpo:
+
+- Não abusar de comentários.
+- 
+
+3) Nomeação:
+- Não usar caracteres especiais, espaço e acentos.
+- Nomes de arquivos, variáveis, funções devem ser escritos com a primeira letra em caixa baixa (letra minúscula), 
+iniciar com caixa alta (letras maiúscula) apenas em classes modelos.
+- Definir nomes que tenham relação com o problemas a ser resolvido.
+
+4) Alinhamento (identação do código)
+
+5) Quanto menos código usado para o problema melhor.
+
+______________________________________________________
+COMANDOS DE TERMINAL
+
+cls ou clear    (limpar a tela do terminal)
+node -v         (exibe a versão do node)
+cd pasta        (entrar na pasta)
+cd ..           (voltar um nível)
+dir ou ls       (listar os arquivos e diretórios)
+node arquivo.js (executar um arquivo JavaScript)
+seta para cimar (repete)
+<tab>           (completa o comando)
+_______________________________________________________
+VSCode Dicas:
+
+Combinação de teclas alt + shift + f        (alinhamento do código)
+Mais dicas: VS Code: Produtividade Infinita (repositório)
+_______________________________________________________
+JavaScript
+
+Características: 
+- Trabalha com setenças e não com linhas de código
+- ; é opcional
+- Podemos usar aspas "" ou ''
+- Não podemos usar aspas diferentes " ' ou '"
+Dica: Usar em textos "aspas"
+      Usar em bibliotecas ou caminhos 'apóstrofe'
+
+_______________________________________________________
+OPERADORES:
+
+Observações:
+- Regra de precedência
+- % (não calcula porcentagem,e sim o resto da divisão)
+Ex.: 10 % 3 == 1 
+     10 / 3 == 3,33
+
+COMPARADORES DE IGUALDADE:
+- Não usar == ou !=  ()
+
+OPERDADORES LÓGICOS:
+Dica:
+professorjosedeassis.github.io/simulador
+_______________________________________________________
+COMANDOS NO CÓDIGO
+
+console.clear()  //limpar a tela do console
+console.log()  //escrever no console
+// comentários de linhas
+_______________________________________________________
+Estudo das variáveis:
+
+- String (caracteres)
+- Númericas (números)
+- Booleanas (verdadeiro ou falso)
+
+Observações: No JS as variáveis são dinâmicamente tipadas
+
+const        (criar uma constante)
+var  ou let  (criar uma variável)
+ATENÇÃO!! Não usar o var 
+________________________________________________________
+Git e Github
+
+CONFIGURUANDO O Git
+- Abrir o bash
+git config --global user.name "amanda-nogueira"
+git config --global user.emal "amanda.alves.n@hotmail.com"
+git clone link_do_repositório (clonar o repositório na máquina local)
+
+Observação: Digitar os comandos na raiz do repositório
+git status (verifica o status do repositório local em relação ao GitHub)
+git add . (adiciona todas as alterações)
+git commit -m "fundamentos"
