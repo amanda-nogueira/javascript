@@ -82,6 +82,14 @@ Observações: No JS as variáveis são dinâmicamente tipadas
 const        (criar uma constante)
 var  ou let  (criar uma variável)
 ATENÇÃO!! Não usar o var 
+
+TIPAGEM DINÂMICA 
+No JavaScript o tipo string é definido quando o contéudo da variável estiver entre "aspas"
+Variáveis númericas poder ser números inteiros e não inteiros.
+//observações, (vírgulaé um caracatere e não número), se necessário converter a entrada de dados de "," para "." . replace("," "," ".")
+
+Na entrada de dados númericos via terminal ou formulário é necessário converter para números.
+classe Number (ferramenta)
 ________________________________________________________
 Git e Github
 
@@ -95,3 +103,26 @@ Observação: Digitar os comandos na raiz do repositório
 git status (verifica o status do repositório local em relação ao GitHub)
 git add . (adiciona todas as alterações)
 git commit -m "fundamentos"
+____________________________________________________________________________________________________________________
+NODE - plataforma para uso do JS fora do browser(navegador)
+|__ V8 interpretador JS (google chromium)
+|__ bibliotecas C / C++
+|__ pacotes npm (node packager manager)
+
+npm ls (lista os pacotes)
+npm i ou npm install (instala um pacote)
+npm r nome_do_pacote (remove o pacote)
+
+PACOTE == Módulo = biblioteca
+Para usar um pacote é necessário fazer a importação no início do código (logo abaixo do cabeçalho de documentação)
+_____________________________________________________________________________________________________________________
+ALGORÍTMO: "receita de bolo"
+
+Exemplo 1:
+Objetivo: Calcular a média de 2 notas
+media = (nota1 + nota 2) / 2
+
+Variáveis: nota1, nota2, media
+Entrada: nota1, nota2
+Processamento: media = (nota1 + nota 2) / 2
+Saída: media
