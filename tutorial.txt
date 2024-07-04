@@ -126,3 +126,37 @@ Variáveis: nota1, nota2, media
 Entrada: nota1, nota2
 Processamento: media = (nota1 + nota 2) / 2
 Saída: media
+
+Exemplo 2:
+Desenvolver um app modo console para cálculo de porcentagem:
+200 ------------- 100%
+ x  ------------- 10%
+ x  * 100 = 200 * 10
+ x = (200 * 10) / 100
+ x = 20
+ 
+Variáveis: x, y, valor
+Entrada: x, y
+Processamento: valor = (x * y) / 100
+Saída: valor
+____________________________________________________________________________________________________________________
+Exercício:
+Desenvolver um app modo console para cálculo o valor do desconto:
+
+valor total = 200.00
+desconto = 5%
+total com desconto = 190.00
+
+200 --------- 100%
+ x  --------- 5%
+ x * 100 = 200 * 5
+ x = (200 * 5) / 100
+ x = 10
+ _______________________________________________________________________________________
+Exercício 2:
+Desenvolver um app no console para conversão de moeda (real para euro)
+
+Variáveis: real, euro, total, conversao
+Entrada: real, euro
+Processamento: total = euro * real
+Saída: total
