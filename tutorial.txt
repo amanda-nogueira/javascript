@@ -160,3 +160,69 @@ Variáveis: real, euro, total, conversao
 Entrada: real, euro
 Processamento: total = euro * real
 Saída: total
+
+____________________________________________________________________________________________________________________
+Estruturas de controle
+
+condicionais:
+if / is-else (Encadeamento / aninhamento else-is) switch-case
+
+repetições:
+for / while / do-while
+
+if(condição)  {con verdadeira}
+else {condição falsa}
+
+Observações:
+1) Sempre uma resposta será exibida independente da condição
+2)  Não pode existir uma condição verdadeira e falsa ao mesmo tempo
+
+
+Exemplo de uso da estrutura else if
+No exemplo cálculo da média, estabelecer as seguintes condições:
+1) Se o aluno tiver média menor que 2 ('Reprovado')
+2) Se a média do aluno estiver entre 2 (inclusive) e 5 (não incluir o 5) ('Recuperação)
+3) Se a média for igual ou superior a 5 (Aprovado)
+
+Resumindo:
+If(condição 1){
+      //condição 1 verdadeira
+} else if (condição 2){
+      //condição 2 verdadeira
+} else {
+ // nenhuma das condições anteriores verdadeiras
+}
+
+OBS: o else inal não é obrigatório.
+
+Exercício 3:
+No Brasil, o voto pode ser proibido, obrigatório ou facultativo, de acordo com os seguintes critérios:
+idade menor que 16 (proibido votar)
+idade entre 18 e 70, incluindo 18 e 70, (voto obrigatório)
+16, 7 ou acima de 70 (voto é opcional)
+Desenvolva no console, um APP para verificar em função da idade a obrigação ou não de votar.
+_______________________________________________________________________________________________________________________
+Estrutura de controle condicional: switch-case
+Sintaxe:
+variável (número inteiro ou letra)
+switch(variável){
+      case: 1
+            //código se o valor da variável for igual a 1
+      break
+      case: 2
+            //código se o valor da variável for igual a 2
+      break
+   default:
+   //código caso valor diferente de 1 ou 2
+   break
+}
+_______________________________________________________________________________________________________________________
+Exercício 4: Desenvolva no console do JS um aplicativo que faça o sorteio de um jogo de dado, ao resultado associar usando 
+switch case a imagem da face do dado correspondente.
+Exemplo:
+   
+   --------
+   |      |
+   |      |
+   |      |
+   --------
