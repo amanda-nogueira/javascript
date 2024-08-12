@@ -226,3 +226,14 @@ Exemplo:
    |      |
    |      |
    --------
+
+____________________________________________________________________________________________________________________
+   Estruturas de controle - laços de repetições
+for: estrutura de repetição finitas (determinada)
+      for(let i = 1; condição; incremento/decremento){
+            (início; repetir enquanto condição verdadeira; ++ ou --)
+            //OBS.: a variável declarada dentro da estrutura deve ser um número inteiro
+      }
+
+while: 
+do-while: 
