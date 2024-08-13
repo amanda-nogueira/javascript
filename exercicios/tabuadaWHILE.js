@@ -1,13 +1,15 @@
 /**
- *  Tabuada utilizando a estrutura de repertição FOR
+ * Tabuada usando estrutura WHILE
  * @author Amanda
  */
 console.clear()
 const input = require('readline-sync')
 let valor
-console.log('Tabuada')
+let i = 1
+console.log('Tabuada com WHILE')
 valor = Number(input.question('Digite o valor da tabuada: '))
 console.log('')
-for(let i = 1; i < 11; i++){
-    console.log(`${valor} x ${i} = ${valor * i} `)
+while(i < 11){
+        console.log(`${i} x ${valor} = ${i * valor}`)
+        i++
 }
