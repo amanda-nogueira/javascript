@@ -229,11 +229,46 @@ Exemplo:
 
 ____________________________________________________________________________________________________________________
    Estruturas de controle - laços de repetições
+
+for, while, do-while
+
 for: estrutura de repetição finitas (determinada)
       for(let i = 1; condição; incremento/decremento){
             (início; repetir enquanto condição verdadeira; ++ ou --)
             //OBS.: a variável declarada dentro da estrutura deve ser um número inteiro
       }
 
-while: 
-do-while: 
+while: estrutura de repetição infinitas
+      while(condição){
+            //analisa a condição e executa o código equanto a condição for verdadeira.
+      }
+
+do-while: estrutura de repetição infinitas
+      do{
+            //sempre executa o código uma vez  independente da condição, depois se comporta como while
+      }while(condição)
+_____________________________________________________________________________________________________________________________
+Exercício 5:
+5.1 Escreva 
+
+Exercício 6:
+Desenvolver um aplicativo para calcular a tabuada, semelhante ao exemplo de aula usando a estrutura while no lugar do for.
+_____________________________________________________________________________________________________________________________
+Funções:
+Uma função em JS é um bloco de código que realiza uma tarefa específica ou calcula um valor. Você pode pensar nela
+como uma "receita" que você escreve uma vez e pode usar várias vezes, sem precisar reescrever o código.
+
+Para criar uma função simples (literal) usamos a palavra reservada function, e escolhemos um nome, conforme sintaxe abaixo:
+
+funcion nome(){
+      //código
+}
+
+Para executar uma função devemos escrever o nome da função seguido de parênteses:
+nome()
+
+//Variáveis
+Tipos primitivos: string, number, boolean
+Outros tipos: function, object
+_______________________________________________________________________________________________________________________________
+
