@@ -39,15 +39,12 @@ function inicio()
 
     switch (computador) {
         case 1:
-
             console.log("O computador escolheu PEDRA")
             break
         case 2:
-
             console.log("O computador escolheu PAPEL")
             break
         case 3:
-
             console.log(" O computador escolheu TESOURA")
             break
         default:
