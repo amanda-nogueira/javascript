@@ -255,9 +255,10 @@ Exercício 6:
 Desenvolver um aplicativo para calcular a tabuada, semelhante ao exemplo de aula usando a estrutura while no lugar do for.
 _____________________________________________________________________________________________________________________________
 Funções:
-Uma função em JS é um bloco de código que realiza uma tarefa específica ou calcula um valor. Você pode pensar nela
+Uma função é um bloco de código que realiza uma tarefa específica ou calcula um valor. Você pode pensar nela
 como uma "receita" que você escreve uma vez e pode usar várias vezes, sem precisar reescrever o código.
-
+Nomeie funções de acordo com o problema a ser resolvido.
+Use "verbos" para nomear funções. Ex.: calcular() cadastrar()
 Para criar uma função simples (literal) usamos a palavra reservada function, e escolhemos um nome, conforme sintaxe abaixo:
 
 funcion nome(){
@@ -270,5 +271,48 @@ nome()
 //Variáveis
 Tipos primitivos: string, number, boolean
 Outros tipos: function, object
-_______________________________________________________________________________________________________________________________
 
+//Funções em JS
+- Literais (nome)
+- Atribuídas (variável) "Função anônima"
+São funções atribuídas a uma constante ou variável onde o resultado do processamento da função é armazenado e pode ser utilizado, 
+além disso funções atribuídas podem ser simplificadas.
+
+(arrow function) 
+______________________________________________________________________________________________________________________________
+Atividade 3 (Avaliação em dupla)
+Desenvolver uma calculadora no console usando funções, coforme o modelo abaixo:
+
+Calculadora:
+Digite o primeiro número: 2
+Digite o segundo número: 4
+Opções:
+1. Somar
+2. Subtrair
+3. Multiplicar
+4. Dividir
+5. Calular a porcentagem
+Digite a opção desejada: 3
+A multiplicação de 2 x 4 = 6
+_______________________________________________________________________________________________________________________________
+POO
+
+- Abstração (classe modelo)
+- Herança 
+- Polimorfismo
+- Encapsulamento (segurança)
+
+Slides de apoio: https://professorjosedeassis.github.io/javaSE (49 ao 60)
+
+Obs.: Para criar uma classe modelo usamos uma letra maiúscula.
+No JS a classe modelo é uma função
+
+Sempre que existir a palavra new um objeto é criado (instanciado)
+O ponto após o objeto é usado para acessar os recursos (atributos e métodos) da classe modelo
+
+Polimorfismo:
+Atenção! Para reescrever um método é necessário usar o MESMO nome do método original
+
+Atividade 4: Avaliação individual
+Slides 62 a 67  - exceto o slide 65 (POO Exercício 1 - carros)
+__________________________________________________________________________________________________________________________________
