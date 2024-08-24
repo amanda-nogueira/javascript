@@ -314,5 +314,16 @@ Polimorfismo:
 Atenção! Para reescrever um método é necessário usar o MESMO nome do método original
 
 Atividade 4: Avaliação individual
-Slides 62 a 67  - exceto o slide 65 (POO Exercício 1 - carros)
+Slides 16 a 20 (POO Exercício 1 - carros)
+
+Encapsulamento:
+
+- Reforço na segurança dos atributos (variáveis)
+Dica: get e set (acesso a variável encapsulada) 
 __________________________________________________________________________________________________________________________________
+Array (vetor)
+
+Na linguagem Js array é um objeto
+
+Array multidimensional (matriz)
+É um array que contém outro(s) array(s)
