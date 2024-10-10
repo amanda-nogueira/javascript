@@ -1,0 +1,2 @@
+Amanda Nogueira 
+Exemplo de uso dos recursos async - await
