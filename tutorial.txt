@@ -327,3 +327,13 @@ Na linguagem Js array é um objeto
 
 Array multidimensional (matriz)
 É um array que contém outro(s) array(s)
+
+__________________________________________________________________________________________________________________________________
+Assincronismo
+A linguagem JavaScript é single thread, ou seja, é necessário esperar a finalização de um processamento para iniciar outro.
+
+1) Funções callback (obsoleto)
+2) Promise (promessa)
+      .then (retorno positivo)
+      .catch(erro) (retorno falhou)
+3) Async await

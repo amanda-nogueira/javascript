@@ -1,5 +1,5 @@
 /**
- * Converter passos em kilômetros
+ * Converter passos em quilômetros
  * @author Amanda
  */
 const input = require('readline-sync')

@@ -1,0 +1,23 @@
+/**
+* Folha de estilo do carrossel de imagens
+* @author Amanda
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+/* efeito fade controlado pelo JS */
+#slide.fadeOut{
+    opacity: 0.1; /* transparência 0 a 1 */
+}
+#slide{
+    transition: opacity 2s;
+    opacity: 1;
+}
